@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #6cf;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 330px;
+  width: 1000px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #08038C;
+}
+
+.question {
+  padding: 20px;
+  font-size: 22px;
+  background-color: #08038C;
+  border-radius: 20px;
+  margin: 10px 0 10px 0;
+  color: #f6f6f6;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.option {
+  padding: 10px 0 10px 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 10px 0 10px 0;
+  color: #000;
+  border-radius: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.option:hover {
+  background-color: #08038C;
+  color: #f6f6f6;
+}
+
+.option:not(:last-child) {
+  margin-right: 10px;
+}
+
+.next-btn {
+  border: none;
+  outline: none;
+  background-color: rgba(255, 25, 255, 0.5);
+  width: 100px;
+  height: 35px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 10px 0 10px 0;
+  padding: 10px 20px;
+  margin-left: auto;
+}
+
+.next-btn:hover {
+  background-color: #08038C;
+  color: #f6f6f6;
+}
+
+.result {
+  height: 100px;
+  text-align: center;
+  font-size: 75px;
+  color: #000;
+  border: 2px solid #000;
+  padding: 30px 50px;
+  margin-top: 100px;
+}
+
+.option input:checked .option {
+  background-color: #08038C;
+  color: #000;
+}
+/*# sourceMappingURL=main.css.map */
